@@ -6,7 +6,7 @@ function Dashboardlayout({children}) {
     
     return(
         <>
-            <main className="d-flex flex-wrap">
+            <main className="d-flex flex-wrap bg-secondary">
                 <div className="col-3 pt-5 border border-secondary">
                     <ul>
                         <li className="list-group-item text-start p-3">
@@ -16,13 +16,13 @@ function Dashboardlayout({children}) {
                             <Link to={'/Dashboard/Projects'}>Projects</Link>
                         </li>
                         <li className="list-group-item text-start p-3">
-                            <Link to={'/Dashboard/Billings'}>Billings</Link>
+                            <Link to={'/Dashboard/Billings'}>Billing</Link>
                         </li>
                         <li className="list-group-item text-start p-3">
                             <Link to={'/Dashboard/Team'}>Team Members</Link>    
                         </li>
                         <li className="list-group-item text-start p-3">
-                            <Link to={'/Dashboard/Stats'}>Stats</Link>
+                            <Link to={'/Dashboard/Stats'}>Statistics</Link>
                         </li>
                         <li className="list-group-item text-start p-3">
                             <Link to={'/Dashboard/Settings'}>Settings</Link>
